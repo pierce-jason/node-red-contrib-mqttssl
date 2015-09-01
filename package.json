@@ -23,5 +23,8 @@
 	 "author": {
         "name": "Rayner Vintervoll",
         "email": "raynerv@gmail.com"
+    },
+    "scripts": {
+        "postinstall": "sh ./patcher.sh"
     }
 }

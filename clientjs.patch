@@ -1,0 +1,15 @@
+--- /usr/lib/node_modules/node-red-contrib-mqttssl/node_modules/mqtt/lib/client.js	2015-09-01 18:40:01.743074866 +0000
++++ /usr/lib/node_modules/node-red-contrib-mqttssl/node_modules/mqtt/lib/client.js.new	2015-09-01 18:40:38.372932995 +0000
+@@ -156,9 +156,9 @@
+   this.stream.on('close', this.emit.bind(this, 'close'));
+ 
+   // Send a connect packet on stream connect
+-  this.stream.on('connect', function () {
+-    that.conn.connect(that.options);
+-  });
++//  this.stream.on('connect', function () {
++//    that.conn.connect(that.options);
++//  });
+ 
+   this.stream.on('secureConnect', function () {
+     that.conn.connect(that.options);
